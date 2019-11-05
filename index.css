@@ -1,0 +1,77 @@
+
+nav{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+    font-size: 15px;
+  }
+  nav ul{
+      text-align: center;
+  }
+  nav ul li{
+      display: inline-block;
+      list-style: none;
+  }
+  nav>ul>li>a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    list-style: none;
+    color: white;
+    background-color:black;
+    }
+    nav>ul>li>a:hover {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+        background: rgba(221, 109, 35, 0.678);
+        color: rgba(0, 35, 122, 0.7);
+        }
+        .home{
+            background-repeat:no-repeat;
+            background-size:cover;
+            width: 80vh;
+            height:80vh;
+            text-align: center;
+        }
+img{
+    height:200px;
+    width:300px;
+    margin:0 10px 0 0;
+    border-radius:25px;
+    }
+
+    .heading{
+        text-align: center;
+    }
+.services{
+    width: 70%;
+    padding: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    font-size: 30px;
+}
+.studies{
+    width:100%;
+    padding:20%;
+    margin-left:20%;
+    margin-right:20%;
+    display:flex
+    font-size:30px;
+}
+body{
+    background-color:coral;
+    font-size: 30px;
+}
+.footer{
+    background-color: lightyellow;
+    text-align:center;
+}
+.case studies{
+    font-size: 30px;
+}
+.management{
+    padding:20px;
+}
