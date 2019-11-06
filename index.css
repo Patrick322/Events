@@ -6,9 +6,7 @@ nav{
     margin-right: 0%;
     font-size: 15px;
   }
-  nav ul{
-      text-align: center;
-  }
+
   nav ul li{
       display: inline-block;
       list-style: none;
@@ -44,30 +42,35 @@ img{
 
     .heading{
         text-align: center;
+        font-family: 'Nova Square', cursive;
     }
-.services{
+#services{
     width: 70%;
-    padding: 2%;
-    margin-left: 15%;
-    margin-right: 15%;
+    padding: 20px;
     display: flex;
     font-size: 30px;
+    margin-right:12px;
+    letter-spacing:3px;
+    font-family: 'Bad Script', cursive
 }
+
 .studies{
     width:100%;
     padding:20%;
     margin-left:20%;
     margin-right:20%;
-    display:flex
+    display:flex;
     font-size:30px;
 }
 body{
-    background-color:coral;
+    background-color:palegreen;
     font-size: 30px;
+    font-family: 'Nova Square', cursive;
 }
 .footer{
     background-color: lightyellow;
     text-align:center;
+    font-family: 'Bilbo Swash Caps', cursive;
 }
 .case studies{
     font-size: 30px;
@@ -75,3 +78,4 @@ body{
 .management{
     padding:20px;
 }
+
