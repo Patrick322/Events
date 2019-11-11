@@ -1,8 +1,8 @@
 
 nav{
-    max-width: 960px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 10px 0;
+    padding: 10%;
     margin-right: 0%;
     font-size: 15px;
   }
@@ -83,7 +83,7 @@ body{
     padding:20px;
 }
 .home{
-padding-left: 500px;
+padding-left: 80%;
 padding-bottom: 0%;
 background-image: url("https://bit.ly/2X2GXYS");
 }
@@ -143,4 +143,9 @@ background-color: blueviolet;
 
 #about{
     background-image: url("https://bit.ly/2Qd3Oj0");
+}
+@media screen and(max-width:1024px){
+    *{
+        width:50%;
+    }
 }
