@@ -1,10 +1,19 @@
 
+.container{
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+}
 nav{
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 10%;
-    margin-right: 0%;
     font-size: 15px;
+    margin-top: 0px;
+  }
+
+  nav ul{
+      text-align: right;
   }
 
   nav ul li{
@@ -48,13 +57,14 @@ img{
     }
 #services{
     padding: 30px;
-    display: flex;
-    justify-content: space-around;
     font-size: 30px;
     letter-spacing:3px;
     font-family: 'Bad Script', cursive;
     padding-top:0;
+    display: flex;
+    justify-content: space-around;
 }
+
 
 .studies{
     width:100%;
@@ -69,26 +79,42 @@ body{
     font-size: 30px;
     font-family: 'Nova Square', cursive;
     color:white;
-    overflow: hidden;
+    margin-top :0%;
 }
 .footer{
     background-color: coral;
     text-align:center;
     font-family: 'Bilbo Swash Caps', cursive;
 }
-.case studies{
+#studies{
     font-size: 30px;
 }
 .management{
     padding:20px;
 }
 .home{
-padding-left: 80%;
+padding-left: 30px;
 padding-bottom: 0%;
 background-image: url("https://bit.ly/2X2GXYS");
+background-size: cover;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+display: flex;
+flex-direction: column;
+padding: 1%;
+margin-left: 20%;
+width: 60%;
 }
 #process{
     display:flex;
+    flex-wrap: wrap;
+}
+
+#process div{
+    width: 300px;
+
 }
 
 #About{
@@ -115,37 +141,25 @@ background-image: url("https://bit.ly/2X2GXYS");
     background-color: aquamarine;
 }
 
-/*services*/
 
-#services{
-    width: 100%;
-    height:70%;
-    display:flex;
-}
+
 
 /*warehouse*/
 #warehouse{
-font-size: 30p;
+font-size: 30px;
 background-color: blueviolet;
 }
 
 /*gallery*/
 
-#gallery{
-    display: flex;
-}
-
 .gallery{
     display: flex;
     justify-content: space-around;
 }
+
+
 /*about*/
 
 #about{
     background-image: url("https://bit.ly/2Qd3Oj0");
-}
-@media screen and(max-width:1024px){
-    *{
-        width:50%;
-    }
 }
