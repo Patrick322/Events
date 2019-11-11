@@ -29,9 +29,11 @@ nav{
         .home{
             background-repeat:no-repeat;
             background-size:cover;
-            width: 80vh;
-            height:80vh;
+            width: 130vh;
+            height:130vh;
             text-align: center;
+            padding-bottom: 0;
+            color:black;
         }
 img{
     height:200px;
@@ -45,13 +47,13 @@ img{
         font-family: 'Nova Square', cursive;
     }
 #services{
-    width: 70%;
-    padding: 20px;
+    padding: 30px;
     display: flex;
+    justify-content: space-around;
     font-size: 30px;
-    margin-right:12px;
     letter-spacing:3px;
-    font-family: 'Bad Script', cursive
+    font-family: 'Bad Script', cursive;
+    padding-top:0;
 }
 
 .studies{
@@ -63,12 +65,14 @@ img{
     font-size:30px;
 }
 body{
-    background-color:palegreen;
+    background-color: cornflowerblue;
     font-size: 30px;
     font-family: 'Nova Square', cursive;
+    color:white;
+    overflow: hidden;
 }
 .footer{
-    background-color: lightyellow;
+    background-color: coral;
     text-align:center;
     font-family: 'Bilbo Swash Caps', cursive;
 }
@@ -78,4 +82,65 @@ body{
 .management{
     padding:20px;
 }
+.home{
+padding-left: 500px;
+padding-bottom: 0%;
+background-image: url("https://bit.ly/2X2GXYS");
+}
+#process{
+    display:flex;
+}
 
+#About{
+    align-items: center;
+    text-align: center;
+}
+
+#process{
+    display: flex;
+    justify-content: space-around;
+}
+
+#process_heading{
+    align-items: center;
+    text-align: center;
+}
+/*studies*/
+
+
+#studies{
+    width: 100%;
+    height: 70%;
+    padding: 20%;
+    background-color: aquamarine;
+}
+
+/*services*/
+
+#services{
+    width: 100%;
+    height:70%;
+    display:flex;
+}
+
+/*warehouse*/
+#warehouse{
+font-size: 30p;
+background-color: blueviolet;
+}
+
+/*gallery*/
+
+#gallery{
+    display: flex;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+}
+/*about*/
+
+#about{
+    background-image: url("https://bit.ly/2Qd3Oj0");
+}
