@@ -1,5 +1,4 @@
-
-.container{
+.container {
     width: 100%;
     top: 0;
     left: 0;
@@ -7,20 +6,22 @@
     position: fixed;
     z-index: 1;
 }
-nav{
+
+nav {
     font-size: 15px;
     margin-top: 0px;
-  }
+}
 
-  nav ul{
-      text-align: right;
-  }
+nav ul {
+    text-align: right;
+}
 
-  nav ul li{
-      display: inline-block;
-      list-style: none;
-  }
-  nav>ul>li>a {
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav>ul>li>a {
     padding: 18px;
     margin-right: 0;
     text-transform: uppercase;
@@ -28,113 +29,127 @@ nav{
     display: block;
     list-style: none;
     color: white;
-    background-color:black;
-    }
-    nav>ul>li>a:hover {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-        background: rgba(221, 109, 35, 0.678);
-        color: rgba(0, 35, 122, 0.7);
-        }
-        .home{
-            background-repeat:no-repeat;
-            background-size:cover;
-            width: 130vh;
-            height:130vh;
-            text-align: center;
-            padding-bottom: 0;
-            color:black;
-        }
-img{
-    height:200px;
-    width:300px;
-    margin:0 10px 0 0;
-    border-radius:25px;
-    }
+    background-color: black;
+}
 
-    .heading{
-        text-align: center;
-        font-family: 'Nova Square', cursive;
-    }
-#services{
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(221, 109, 35, 0.678);
+    color: rgba(0, 35, 122, 0.7);
+}
+
+.home {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 130vh;
+    height: 130vh;
+    text-align: center;
+    padding-bottom: 0;
+    color: black;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    margin: 0 10px 0 0;
+    border-radius: 25px;
+    transform: scale(1.1);
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Nova Square', cursive;
+}
+
+#services {
     padding: 30px;
     font-size: 30px;
-    letter-spacing:3px;
+    letter-spacing: 3px;
     font-family: 'Bad Script', cursive;
-    padding-top:0;
+    padding-top: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
-
-.studies{
-    width:100%;
-    padding:20%;
-    margin-left:20%;
-    margin-right:20%;
-    display:flex;
-    font-size:30px;
+#services div{
+    width:400px;
+    height:400px;
 }
-body{
-    background-color: cornflowerblue;
+
+
+.studies {
+    width: 100%;
+    padding: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    font-size: 30px;
+}
+
+body {
+    background-color:rgba(0, 0, 0, 0.5);
     font-size: 30px;
     font-family: 'Nova Square', cursive;
-    color:white;
-    margin-top :0%;
+    color: white;
+    margin-top: 0%;
+    background-repeat: none;
 }
-.footer{
+
+.footer {
     background-color: coral;
-    text-align:center;
+    text-align: center;
     font-family: 'Bilbo Swash Caps', cursive;
 }
-#studies{
+
+#studies {
     font-size: 30px;
 }
-.management{
-    padding:20px;
+
+.management {
+    padding: 20px;
 }
-.home{
-padding-left: 30px;
-padding-bottom: 0%;
-background-image: url("https://bit.ly/2X2GXYS");
-background-size: cover;
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-display: flex;
-flex-direction: column;
-padding: 1%;
-margin-left: 20%;
-width: 60%;
+
+.home {
+    padding-left: 30px;
+    padding-bottom: 0%;
+    flex-direction: column;
+    padding: 1%;
+    margin-left: 20%;
+    width: 60%;
+    margin-top:50%;
+    text-align: center;
 }
-#process{
-    display:flex;
+
+#process {
+    display: flex;
     flex-wrap: wrap;
 }
 
-#process div{
+#process div {
     width: 300px;
 
 }
 
-#About{
+#About {
     align-items: center;
     text-align: center;
 }
 
-#process{
+#process {
     display: flex;
     justify-content: space-around;
 }
 
-#process_heading{
+#process_heading {
     align-items: center;
     text-align: center;
 }
+
 /*studies*/
 
 
-#studies{
+#studies {
     width: 100%;
     height: 70%;
     padding: 20%;
@@ -145,21 +160,25 @@ width: 60%;
 
 
 /*warehouse*/
-#warehouse{
-font-size: 30px;
-background-color: blueviolet;
+#warehouse {
+    font-size: 30px;
+    background-color: blueviolet;
 }
 
 /*gallery*/
 
-.gallery{
+.Gallery ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
+.Gallery ul li {
+    list-style: none;
+}
 
 /*about*/
 
-#about{
+#about {
     background-image: url("https://bit.ly/2Qd3Oj0");
 }
