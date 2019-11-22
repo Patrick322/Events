@@ -41,11 +41,12 @@ nav>ul>li>a:hover {
 .home {
     background-repeat: no-repeat;
     background-size: cover;
-    width: 130vh;
-    height: 130vh;
+    width: 70vh;
+    height: 70vh;
     text-align: center;
     padding-bottom: 0;
     color: black;
+    margin-top: 0%;
 }
 
 img {
@@ -117,7 +118,7 @@ body {
     padding: 1%;
     margin-left: 20%;
     width: 60%;
-    margin-top:50%;
+    margin-top:20%;
     text-align: center;
 }
 
